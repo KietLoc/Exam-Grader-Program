@@ -61,7 +61,7 @@ int gradeExam(const array<char, NUM_QUESTIONS>& key,
  - Number missed,
  - Table of missed question #, correct answer, student's answer,
  - Percentage score,
- - Pass/fail message (pass if ? 70%).
+ - Pass/fail message (pass if >= 70%).
  */
 void writeReport(const vector<int>& missedQs,
     const vector<array<char, 2>>& missedAnswerPairs,
