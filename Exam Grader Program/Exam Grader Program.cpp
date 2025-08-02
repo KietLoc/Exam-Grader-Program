@@ -36,7 +36,7 @@ void getAnswers(const char* filename, array<char, NUM_QUESTIONS>& answers)
 
 /*
  Compares key[] vs student[], and records:
- - indices (1?based) of missed questions in missedQs,
+ - indices of missed questions in missedQs,
  - correct vs student answers per missed question in missedAnswerPairs.
  Returns count of incorrect answers.
  */
