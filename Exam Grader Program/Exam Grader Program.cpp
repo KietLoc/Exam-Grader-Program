@@ -25,8 +25,7 @@ void getAnswers(const char* filename, array<char, NUM_QUESTIONS>& answers)
         char ch;
         if (!(fin >> ch) || (ch != 'A' && ch != 'B' && ch != 'C' && ch != 'D')) 
         {
-            cerr << "Error: file '" << filename
-                << "' is missing/invalid answer at line " << (i + 1) << endl;
+            cerr << "Error: file '" << filename << "' is missing/invalid answer at line " << (i + 1) << endl;
             exit(EXIT_FAILURE);
         }
         answers[i] = ch;
